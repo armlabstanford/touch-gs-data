@@ -40,8 +40,8 @@
                 ]
             ],
             "colmap_im_id": 1,
-            "depth_file_path": "fused/c_0.png",
-            "uncertainty_file_path": "fused_uncertainty/c_0.png"
+            "depth_file_path": "fused_output_dir/c_0.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_0.png"
         },
         {
             "file_path": "imgs/c_1.png",
@@ -72,8 +72,8 @@
                 ]
             ],
             "colmap_im_id": 2,
-            "depth_file_path": "fused/c_1.png",
-            "uncertainty_file_path": "fused_uncertainty/c_1.png"
+            "depth_file_path": "fused_output_dir/c_1.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_1.png"
         },
         {
             "file_path": "imgs/c_3.png",
@@ -104,8 +104,8 @@
                 ]
             ],
             "colmap_im_id": 3,
-            "depth_file_path": "fused/c_3.png",
-            "uncertainty_file_path": "fused_uncertainty/c_3.png"
+            "depth_file_path": "fused_output_dir/c_3.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_3.png"
         },
         {
             "file_path": "imgs/c_4.png",
@@ -136,8 +136,8 @@
                 ]
             ],
             "colmap_im_id": 4,
-            "depth_file_path": "fused/c_4.png",
-            "uncertainty_file_path": "fused_uncertainty/c_4.png"
+            "depth_file_path": "fused_output_dir/c_4.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_4.png"
         },
         {
             "file_path": "imgs/c_6.png",
@@ -168,8 +168,8 @@
                 ]
             ],
             "colmap_im_id": 5,
-            "depth_file_path": "fused/c_6.png",
-            "uncertainty_file_path": "fused_uncertainty/c_6.png"
+            "depth_file_path": "fused_output_dir/c_6.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_6.png"
         },
         {
             "file_path": "imgs/c_7.png",
@@ -200,8 +200,8 @@
                 ]
             ],
             "colmap_im_id": 6,
-            "depth_file_path": "fused/c_7.png",
-            "uncertainty_file_path": "fused_uncertainty/c_7.png"
+            "depth_file_path": "fused_output_dir/c_7.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_7.png"
         },
         {
             "file_path": "imgs/c_11.png",
@@ -232,8 +232,8 @@
                 ]
             ],
             "colmap_im_id": 7,
-            "depth_file_path": "fused/c_11.png",
-            "uncertainty_file_path": "fused_uncertainty/c_11.png"
+            "depth_file_path": "fused_output_dir/c_11.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_11.png"
         },
         {
             "file_path": "imgs/c_13.png",
@@ -264,8 +264,8 @@
                 ]
             ],
             "colmap_im_id": 8,
-            "depth_file_path": "fused/c_13.png",
-            "uncertainty_file_path": "fused_uncertainty/c_13.png"
+            "depth_file_path": "fused_output_dir/c_13.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_13.png"
         },
         {
             "file_path": "imgs/c_14.png",
@@ -296,8 +296,8 @@
                 ]
             ],
             "colmap_im_id": 9,
-            "depth_file_path": "fused/c_14.png",
-            "uncertainty_file_path": "fused_uncertainty/c_14.png"
+            "depth_file_path": "fused_output_dir/c_14.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_14.png"
         },
         {
             "file_path": "imgs/c_19.png",
@@ -328,8 +328,8 @@
                 ]
             ],
             "colmap_im_id": 10,
-            "depth_file_path": "fused/c_19.png",
-            "uncertainty_file_path": "fused_uncertainty/c_19.png"
+            "depth_file_path": "fused_output_dir/c_19.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_19.png"
         },
         {
             "file_path": "imgs/c_20.png",
@@ -360,8 +360,8 @@
                 ]
             ],
             "colmap_im_id": 11,
-            "depth_file_path": "fused/c_20.png",
-            "uncertainty_file_path": "fused_uncertainty/c_20.png"
+            "depth_file_path": "fused_output_dir/c_20.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_20.png"
         },
         {
             "file_path": "imgs/c_21.png",
@@ -392,8 +392,8 @@
                 ]
             ],
             "colmap_im_id": 12,
-            "depth_file_path": "fused/c_21.png",
-            "uncertainty_file_path": "fused_uncertainty/c_21.png"
+            "depth_file_path": "fused_output_dir/c_21.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_21.png"
         },
         {
             "file_path": "imgs/c_22.png",
@@ -424,8 +424,8 @@
                 ]
             ],
             "colmap_im_id": 13,
-            "depth_file_path": "fused/c_22.png",
-            "uncertainty_file_path": "fused_uncertainty/c_22.png"
+            "depth_file_path": "fused_output_dir/c_22.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_22.png"
         },
         {
             "file_path": "imgs/c_23.png",
@@ -456,8 +456,8 @@
                 ]
             ],
             "colmap_im_id": 14,
-            "depth_file_path": "fused/c_23.png",
-            "uncertainty_file_path": "fused_uncertainty/c_23.png"
+            "depth_file_path": "fused_output_dir/c_23.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_23.png"
         },
         {
             "file_path": "imgs/c_26.png",
@@ -488,8 +488,8 @@
                 ]
             ],
             "colmap_im_id": 15,
-            "depth_file_path": "fused/c_26.png",
-            "uncertainty_file_path": "fused_uncertainty/c_26.png"
+            "depth_file_path": "fused_output_dir/c_26.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_26.png"
         },
         {
             "file_path": "imgs/c_28.png",
@@ -520,8 +520,8 @@
                 ]
             ],
             "colmap_im_id": 16,
-            "depth_file_path": "fused/c_28.png",
-            "uncertainty_file_path": "fused_uncertainty/c_28.png"
+            "depth_file_path": "fused_output_dir/c_28.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_28.png"
         },
         {
             "file_path": "imgs/c_31.png",
@@ -552,8 +552,8 @@
                 ]
             ],
             "colmap_im_id": 17,
-            "depth_file_path": "fused/c_31.png",
-            "uncertainty_file_path": "fused_uncertainty/c_31.png"
+            "depth_file_path": "fused_output_dir/c_31.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_31.png"
         },
         {
             "file_path": "imgs/c_32.png",
@@ -584,8 +584,8 @@
                 ]
             ],
             "colmap_im_id": 18,
-            "depth_file_path": "fused/c_32.png",
-            "uncertainty_file_path": "fused_uncertainty/c_32.png"
+            "depth_file_path": "fused_output_dir/c_32.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_32.png"
         },
         {
             "file_path": "imgs/c_33.png",
@@ -616,8 +616,8 @@
                 ]
             ],
             "colmap_im_id": 19,
-            "depth_file_path": "fused/c_33.png",
-            "uncertainty_file_path": "fused_uncertainty/c_33.png"
+            "depth_file_path": "fused_output_dir/c_33.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_33.png"
         },
         {
             "file_path": "imgs/c_35.png",
@@ -648,8 +648,8 @@
                 ]
             ],
             "colmap_im_id": 20,
-            "depth_file_path": "fused/c_35.png",
-            "uncertainty_file_path": "fused_uncertainty/c_35.png"
+            "depth_file_path": "fused_output_dir/c_35.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_35.png"
         },
         {
             "file_path": "imgs/c_37.png",
@@ -680,8 +680,8 @@
                 ]
             ],
             "colmap_im_id": 21,
-            "depth_file_path": "fused/c_37.png",
-            "uncertainty_file_path": "fused_uncertainty/c_37.png"
+            "depth_file_path": "fused_output_dir/c_37.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_37.png"
         },
         {
             "file_path": "imgs/c_39.png",
@@ -712,8 +712,8 @@
                 ]
             ],
             "colmap_im_id": 22,
-            "depth_file_path": "fused/c_39.png",
-            "uncertainty_file_path": "fused_uncertainty/c_39.png"
+            "depth_file_path": "fused_output_dir/c_39.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_39.png"
         },
         {
             "file_path": "imgs/c_40.png",
@@ -744,8 +744,8 @@
                 ]
             ],
             "colmap_im_id": 23,
-            "depth_file_path": "fused/c_40.png",
-            "uncertainty_file_path": "fused_uncertainty/c_40.png"
+            "depth_file_path": "fused_output_dir/c_40.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_40.png"
         },
         {
             "file_path": "imgs/c_46.png",
@@ -776,8 +776,8 @@
                 ]
             ],
             "colmap_im_id": 24,
-            "depth_file_path": "fused/c_46.png",
-            "uncertainty_file_path": "fused_uncertainty/c_46.png"
+            "depth_file_path": "fused_output_dir/c_46.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_46.png"
         },
         {
             "file_path": "imgs/c_47.png",
@@ -808,8 +808,8 @@
                 ]
             ],
             "colmap_im_id": 25,
-            "depth_file_path": "fused/c_47.png",
-            "uncertainty_file_path": "fused_uncertainty/c_47.png"
+            "depth_file_path": "fused_output_dir/c_47.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_47.png"
         },
         {
             "file_path": "imgs/c_48.png",
@@ -840,8 +840,8 @@
                 ]
             ],
             "colmap_im_id": 26,
-            "depth_file_path": "fused/c_48.png",
-            "uncertainty_file_path": "fused_uncertainty/c_48.png"
+            "depth_file_path": "fused_output_dir/c_48.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_48.png"
         },
         {
             "file_path": "imgs/c_49.png",
@@ -872,8 +872,8 @@
                 ]
             ],
             "colmap_im_id": 27,
-            "depth_file_path": "fused/c_49.png",
-            "uncertainty_file_path": "fused_uncertainty/c_49.png"
+            "depth_file_path": "fused_output_dir/c_49.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_49.png"
         },
         {
             "file_path": "imgs/c_52.png",
@@ -904,8 +904,8 @@
                 ]
             ],
             "colmap_im_id": 28,
-            "depth_file_path": "fused/c_52.png",
-            "uncertainty_file_path": "fused_uncertainty/c_52.png"
+            "depth_file_path": "fused_output_dir/c_52.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_52.png"
         },
         {
             "file_path": "imgs/c_53.png",
@@ -936,8 +936,8 @@
                 ]
             ],
             "colmap_im_id": 29,
-            "depth_file_path": "fused/c_53.png",
-            "uncertainty_file_path": "fused_uncertainty/c_53.png"
+            "depth_file_path": "fused_output_dir/c_53.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_53.png"
         },
         {
             "file_path": "imgs/c_134.png",
@@ -968,8 +968,8 @@
                 ]
             ],
             "colmap_im_id": 30,
-            "depth_file_path": "fused/c_134.png",
-            "uncertainty_file_path": "fused_uncertainty/c_134.png"
+            "depth_file_path": "fused_output_dir/c_134.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_134.png"
         },
         {
             "file_path": "imgs/c_136.png",
@@ -1000,8 +1000,8 @@
                 ]
             ],
             "colmap_im_id": 31,
-            "depth_file_path": "fused/c_136.png",
-            "uncertainty_file_path": "fused_uncertainty/c_136.png"
+            "depth_file_path": "fused_output_dir/c_136.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_136.png"
         },
         {
             "file_path": "imgs/c_162.png",
@@ -1032,8 +1032,8 @@
                 ]
             ],
             "colmap_im_id": 32,
-            "depth_file_path": "fused/c_162.png",
-            "uncertainty_file_path": "fused_uncertainty/c_162.png"
+            "depth_file_path": "fused_output_dir/c_162.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_162.png"
         },
         {
             "file_path": "imgs/c_184.png",
@@ -1064,8 +1064,8 @@
                 ]
             ],
             "colmap_im_id": 33,
-            "depth_file_path": "fused/c_184.png",
-            "uncertainty_file_path": "fused_uncertainty/c_184.png"
+            "depth_file_path": "fused_output_dir/c_184.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_184.png"
         },
         {
             "file_path": "imgs/c_185.png",
@@ -1096,8 +1096,8 @@
                 ]
             ],
             "colmap_im_id": 34,
-            "depth_file_path": "fused/c_185.png",
-            "uncertainty_file_path": "fused_uncertainty/c_185.png"
+            "depth_file_path": "fused_output_dir/c_185.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_185.png"
         },
         {
             "file_path": "imgs/c_187.png",
@@ -1128,8 +1128,8 @@
                 ]
             ],
             "colmap_im_id": 35,
-            "depth_file_path": "fused/c_187.png",
-            "uncertainty_file_path": "fused_uncertainty/c_187.png"
+            "depth_file_path": "fused_output_dir/c_187.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_187.png"
         },
         {
             "file_path": "imgs/c_188.png",
@@ -1160,8 +1160,8 @@
                 ]
             ],
             "colmap_im_id": 36,
-            "depth_file_path": "fused/c_188.png",
-            "uncertainty_file_path": "fused_uncertainty/c_188.png"
+            "depth_file_path": "fused_output_dir/c_188.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_188.png"
         },
         {
             "file_path": "imgs/c_191.png",
@@ -1192,8 +1192,8 @@
                 ]
             ],
             "colmap_im_id": 37,
-            "depth_file_path": "fused/c_191.png",
-            "uncertainty_file_path": "fused_uncertainty/c_191.png"
+            "depth_file_path": "fused_output_dir/c_191.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_191.png"
         },
         {
             "file_path": "imgs/c_193.png",
@@ -1224,8 +1224,8 @@
                 ]
             ],
             "colmap_im_id": 38,
-            "depth_file_path": "fused/c_193.png",
-            "uncertainty_file_path": "fused_uncertainty/c_193.png"
+            "depth_file_path": "fused_output_dir/c_193.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_193.png"
         },
         {
             "file_path": "imgs/c_197.png",
@@ -1256,8 +1256,8 @@
                 ]
             ],
             "colmap_im_id": 39,
-            "depth_file_path": "fused/c_197.png",
-            "uncertainty_file_path": "fused_uncertainty/c_197.png"
+            "depth_file_path": "fused_output_dir/c_197.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_197.png"
         },
         {
             "file_path": "imgs/c_201.png",
@@ -1288,8 +1288,8 @@
                 ]
             ],
             "colmap_im_id": 40,
-            "depth_file_path": "fused/c_201.png",
-            "uncertainty_file_path": "fused_uncertainty/c_201.png"
+            "depth_file_path": "fused_output_dir/c_201.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_201.png"
         },
         {
             "file_path": "imgs/c_204.png",
@@ -1320,8 +1320,8 @@
                 ]
             ],
             "colmap_im_id": 41,
-            "depth_file_path": "fused/c_204.png",
-            "uncertainty_file_path": "fused_uncertainty/c_204.png"
+            "depth_file_path": "fused_output_dir/c_204.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_204.png"
         },
         {
             "file_path": "imgs/c_213.png",
@@ -1352,8 +1352,8 @@
                 ]
             ],
             "colmap_im_id": 42,
-            "depth_file_path": "fused/c_213.png",
-            "uncertainty_file_path": "fused_uncertainty/c_213.png"
+            "depth_file_path": "fused_output_dir/c_213.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_213.png"
         },
         {
             "file_path": "imgs/c_214.png",
@@ -1384,8 +1384,8 @@
                 ]
             ],
             "colmap_im_id": 43,
-            "depth_file_path": "fused/c_214.png",
-            "uncertainty_file_path": "fused_uncertainty/c_214.png"
+            "depth_file_path": "fused_output_dir/c_214.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_214.png"
         },
         {
             "file_path": "imgs/c_219.png",
@@ -1416,8 +1416,8 @@
                 ]
             ],
             "colmap_im_id": 44,
-            "depth_file_path": "fused/c_219.png",
-            "uncertainty_file_path": "fused_uncertainty/c_219.png"
+            "depth_file_path": "fused_output_dir/c_219.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_219.png"
         },
         {
             "file_path": "imgs/c_232.png",
@@ -1448,8 +1448,8 @@
                 ]
             ],
             "colmap_im_id": 45,
-            "depth_file_path": "fused/c_232.png",
-            "uncertainty_file_path": "fused_uncertainty/c_232.png"
+            "depth_file_path": "fused_output_dir/c_232.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_232.png"
         },
         {
             "file_path": "imgs/c_234.png",
@@ -1480,8 +1480,8 @@
                 ]
             ],
             "colmap_im_id": 46,
-            "depth_file_path": "fused/c_234.png",
-            "uncertainty_file_path": "fused_uncertainty/c_234.png"
+            "depth_file_path": "fused_output_dir/c_234.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_234.png"
         },
         {
             "file_path": "imgs/c_238.png",
@@ -1512,8 +1512,8 @@
                 ]
             ],
             "colmap_im_id": 47,
-            "depth_file_path": "fused/c_238.png",
-            "uncertainty_file_path": "fused_uncertainty/c_238.png"
+            "depth_file_path": "fused_output_dir/c_238.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_238.png"
         },
         {
             "file_path": "imgs/c_249.png",
@@ -1544,8 +1544,8 @@
                 ]
             ],
             "colmap_im_id": 48,
-            "depth_file_path": "fused/c_249.png",
-            "uncertainty_file_path": "fused_uncertainty/c_249.png"
+            "depth_file_path": "fused_output_dir/c_249.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_249.png"
         },
         {
             "file_path": "imgs/c_251.png",
@@ -1576,8 +1576,8 @@
                 ]
             ],
             "colmap_im_id": 49,
-            "depth_file_path": "fused/c_251.png",
-            "uncertainty_file_path": "fused_uncertainty/c_251.png"
+            "depth_file_path": "fused_output_dir/c_251.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_251.png"
         },
         {
             "file_path": "imgs/c_253.png",
@@ -1608,8 +1608,8 @@
                 ]
             ],
             "colmap_im_id": 50,
-            "depth_file_path": "fused/c_253.png",
-            "uncertainty_file_path": "fused_uncertainty/c_253.png"
+            "depth_file_path": "fused_output_dir/c_253.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_253.png"
         },
         {
             "file_path": "imgs/c_256.png",
@@ -1640,8 +1640,8 @@
                 ]
             ],
             "colmap_im_id": 51,
-            "depth_file_path": "fused/c_256.png",
-            "uncertainty_file_path": "fused_uncertainty/c_256.png"
+            "depth_file_path": "fused_output_dir/c_256.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_256.png"
         },
         {
             "file_path": "imgs/c_257.png",
@@ -1672,8 +1672,8 @@
                 ]
             ],
             "colmap_im_id": 52,
-            "depth_file_path": "fused/c_257.png",
-            "uncertainty_file_path": "fused_uncertainty/c_257.png"
+            "depth_file_path": "fused_output_dir/c_257.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_257.png"
         },
         {
             "file_path": "imgs/c_265.png",
@@ -1704,8 +1704,8 @@
                 ]
             ],
             "colmap_im_id": 53,
-            "depth_file_path": "fused/c_265.png",
-            "uncertainty_file_path": "fused_uncertainty/c_265.png"
+            "depth_file_path": "fused_output_dir/c_265.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_265.png"
         },
         {
             "file_path": "imgs/c_269.png",
@@ -1736,8 +1736,8 @@
                 ]
             ],
             "colmap_im_id": 54,
-            "depth_file_path": "fused/c_269.png",
-            "uncertainty_file_path": "fused_uncertainty/c_269.png"
+            "depth_file_path": "fused_output_dir/c_269.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_269.png"
         },
         {
             "file_path": "imgs/c_270.png",
@@ -1768,8 +1768,8 @@
                 ]
             ],
             "colmap_im_id": 55,
-            "depth_file_path": "fused/c_270.png",
-            "uncertainty_file_path": "fused_uncertainty/c_270.png"
+            "depth_file_path": "fused_output_dir/c_270.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_270.png"
         },
         {
             "file_path": "imgs/c_273.png",
@@ -1800,8 +1800,8 @@
                 ]
             ],
             "colmap_im_id": 56,
-            "depth_file_path": "fused/c_273.png",
-            "uncertainty_file_path": "fused_uncertainty/c_273.png"
+            "depth_file_path": "fused_output_dir/c_273.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_273.png"
         },
         {
             "file_path": "imgs/c_277.png",
@@ -1832,8 +1832,8 @@
                 ]
             ],
             "colmap_im_id": 57,
-            "depth_file_path": "fused/c_277.png",
-            "uncertainty_file_path": "fused_uncertainty/c_277.png"
+            "depth_file_path": "fused_output_dir/c_277.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_277.png"
         },
         {
             "file_path": "imgs/c_278.png",
@@ -1864,8 +1864,8 @@
                 ]
             ],
             "colmap_im_id": 58,
-            "depth_file_path": "fused/c_278.png",
-            "uncertainty_file_path": "fused_uncertainty/c_278.png"
+            "depth_file_path": "fused_output_dir/c_278.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_278.png"
         },
         {
             "file_path": "imgs/c_279.png",
@@ -1896,8 +1896,8 @@
                 ]
             ],
             "colmap_im_id": 59,
-            "depth_file_path": "fused/c_279.png",
-            "uncertainty_file_path": "fused_uncertainty/c_279.png"
+            "depth_file_path": "fused_output_dir/c_279.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_279.png"
         },
         {
             "file_path": "imgs/c_284.png",
@@ -1928,8 +1928,8 @@
                 ]
             ],
             "colmap_im_id": 60,
-            "depth_file_path": "fused/c_284.png",
-            "uncertainty_file_path": "fused_uncertainty/c_284.png"
+            "depth_file_path": "fused_output_dir/c_284.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_284.png"
         },
         {
             "file_path": "imgs/c_285.png",
@@ -1960,8 +1960,8 @@
                 ]
             ],
             "colmap_im_id": 61,
-            "depth_file_path": "fused/c_285.png",
-            "uncertainty_file_path": "fused_uncertainty/c_285.png"
+            "depth_file_path": "fused_output_dir/c_285.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_285.png"
         },
         {
             "file_path": "imgs/c_287.png",
@@ -1992,8 +1992,8 @@
                 ]
             ],
             "colmap_im_id": 62,
-            "depth_file_path": "fused/c_287.png",
-            "uncertainty_file_path": "fused_uncertainty/c_287.png"
+            "depth_file_path": "fused_output_dir/c_287.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_287.png"
         },
         {
             "file_path": "imgs/c_294.png",
@@ -2024,8 +2024,8 @@
                 ]
             ],
             "colmap_im_id": 63,
-            "depth_file_path": "fused/c_294.png",
-            "uncertainty_file_path": "fused_uncertainty/c_294.png"
+            "depth_file_path": "fused_output_dir/c_294.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_294.png"
         },
         {
             "file_path": "imgs/c_296.png",
@@ -2056,8 +2056,8 @@
                 ]
             ],
             "colmap_im_id": 64,
-            "depth_file_path": "fused/c_296.png",
-            "uncertainty_file_path": "fused_uncertainty/c_296.png"
+            "depth_file_path": "fused_output_dir/c_296.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_296.png"
         },
         {
             "file_path": "imgs/c_297.png",
@@ -2088,8 +2088,8 @@
                 ]
             ],
             "colmap_im_id": 65,
-            "depth_file_path": "fused/c_297.png",
-            "uncertainty_file_path": "fused_uncertainty/c_297.png"
+            "depth_file_path": "fused_output_dir/c_297.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_297.png"
         },
         {
             "file_path": "imgs/c_298.png",
@@ -2120,8 +2120,8 @@
                 ]
             ],
             "colmap_im_id": 66,
-            "depth_file_path": "fused/c_298.png",
-            "uncertainty_file_path": "fused_uncertainty/c_298.png"
+            "depth_file_path": "fused_output_dir/c_298.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_298.png"
         },
         {
             "file_path": "imgs/c_299.png",
@@ -2152,8 +2152,8 @@
                 ]
             ],
             "colmap_im_id": 67,
-            "depth_file_path": "fused/c_299.png",
-            "uncertainty_file_path": "fused_uncertainty/c_299.png"
+            "depth_file_path": "fused_output_dir/c_299.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_299.png"
         },
         {
             "file_path": "imgs/c_301.png",
@@ -2184,8 +2184,8 @@
                 ]
             ],
             "colmap_im_id": 68,
-            "depth_file_path": "fused/c_301.png",
-            "uncertainty_file_path": "fused_uncertainty/c_301.png"
+            "depth_file_path": "fused_output_dir/c_301.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_301.png"
         },
         {
             "file_path": "imgs/c_303.png",
@@ -2216,8 +2216,8 @@
                 ]
             ],
             "colmap_im_id": 69,
-            "depth_file_path": "fused/c_303.png",
-            "uncertainty_file_path": "fused_uncertainty/c_303.png"
+            "depth_file_path": "fused_output_dir/c_303.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_303.png"
         },
         {
             "file_path": "imgs/c_321.png",
@@ -2248,8 +2248,8 @@
                 ]
             ],
             "colmap_im_id": 70,
-            "depth_file_path": "fused/c_321.png",
-            "uncertainty_file_path": "fused_uncertainty/c_321.png"
+            "depth_file_path": "fused_output_dir/c_321.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_321.png"
         },
         {
             "file_path": "imgs/c_355.png",
@@ -2280,8 +2280,8 @@
                 ]
             ],
             "colmap_im_id": 71,
-            "depth_file_path": "fused/c_355.png",
-            "uncertainty_file_path": "fused_uncertainty/c_355.png"
+            "depth_file_path": "fused_output_dir/c_355.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_355.png"
         },
         {
             "file_path": "imgs/c_356.png",
@@ -2312,8 +2312,8 @@
                 ]
             ],
             "colmap_im_id": 72,
-            "depth_file_path": "fused/c_356.png",
-            "uncertainty_file_path": "fused_uncertainty/c_356.png"
+            "depth_file_path": "fused_output_dir/c_356.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/c_356.png"
         }
     ],
     "applied_transform": [

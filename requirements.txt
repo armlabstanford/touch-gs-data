@@ -1,0 +1,8 @@
+scipy
+numpy
+
+matplotlib
+opencv-python
+Pillow
+
+open3d

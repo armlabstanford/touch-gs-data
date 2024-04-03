@@ -8,6 +8,12 @@ Steps to Prep Data for Training
 
 To prepare each scene:
 
+0. Install Python packages
+
+```sh
+pip install -r requirements.txt
+```
+
 
 1. Real Bunny Scene
 

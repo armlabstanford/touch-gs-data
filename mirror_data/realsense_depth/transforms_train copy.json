@@ -1,0 +1,17 @@
+{
+    "cameras": {
+        "camera_depth": {
+            "w": 1280,
+            "h": 720,
+            "near": 0.28,
+            "far": 3.0,
+            "camera_angle_x": [
+                0.0
+            ],
+            "types": [
+                "depth"
+            ]
+        }
+    },
+    "frames": []
+}

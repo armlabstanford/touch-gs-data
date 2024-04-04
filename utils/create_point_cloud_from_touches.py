@@ -110,7 +110,7 @@ def open3d_point_cloud(points, colors):
     o3d.visualization.draw_geometries([pcd])
 
 
-def get_all_point_clouds(image_dir, touch_depth_dir, touch_var_dir, camera_transformations, camera_intrinsics, i_take):
+def get_all_point_clouds(image_dir, touch_depth_dir, touch_var_dir, camera_transformations, camera_intrinsics, i_take, percent_take):
     image_filenames  = sorted(os.listdir(image_dir))
     depth_filenames = sorted(os.listdir(touch_depth_dir))
     
@@ -145,7 +145,7 @@ def get_all_point_clouds(image_dir, touch_depth_dir, touch_var_dir, camera_trans
             print('Got point cloud for', image_filename)
             
     # take 100 percent of the points
-    percentage = 100
+    percentage = percent_take
     
     total_indices = len(limited_points_xyz)
     num_indices_to_select = int(total_indices * (percentage / 100))
@@ -202,6 +202,9 @@ if __name__ == '__main__':
     
     parser.add_argument('--train_split', type=float, required=True, help='Train split.')
     
+    parser.add_argument('--percent_take', type=float, default=100, help='Percent of touch points to take.')
+    
+    
     
     args = parser.parse_args()
     
@@ -211,6 +214,7 @@ if __name__ == '__main__':
     touch_var_dir = os.path.join(root_dir, args.touch_var_dir)
     transform_json_path = os.path.join(root_dir, args.transform_json_path)
     
+    percent_take = args.percent_take
     
     train_split = args.train_split
     
@@ -222,7 +226,7 @@ if __name__ == '__main__':
     
     points, colors = get_all_point_clouds(image_dir=image_dir, touch_depth_dir=touch_depth_dir, 
                                           touch_var_dir=touch_var_dir, camera_transformations=transforms, 
-                                          camera_intrinsics=camera_instrinsics, i_take=i_train)
+                                          camera_intrinsics=camera_instrinsics, i_take=i_train, percent_take=percent_take)
     
     # save points and colors to .npy files
     np.save(f'{root_dir}/points_touch.npy', points)

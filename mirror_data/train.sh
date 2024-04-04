@@ -29,3 +29,11 @@ echo
 sleep 1
 
 python3 utils/add_depth_file_path_to_transforms.py --base_repo_path mirror_data --filename 'transforms.json' --depth_file_path_template 'fused_output_dir' --uncertainty_file_path_template 'fused_output_dir_uncertainty'
+
+# create point cloud from the touches
+
+echo "Creating point cloud from touch depths..."
+echo 
+sleep 1
+
+python3 utils/create_point_cloud_from_touches.py --root_dir 'mirror_data' --touch_depth_dir 'touch_depth' --touch_var_dir 'touch_var' --image_dir 'imgs' --transform_json_path 'transforms.json' --train_split 0.8 --percent_take 20

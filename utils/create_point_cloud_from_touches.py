@@ -1,6 +1,9 @@
 # Stanford University, ARMLab 2023
 # Touch-GS
 
+import math
+
+import argparse
 import os
 import random
 from matplotlib import pyplot as plt
@@ -10,7 +13,7 @@ import numpy as np
 import cv2
 import open3d as o3d
 
-import colmap_utils_transforms
+import transforms_utils
 
 
 def get_point_cloud_from_depth_and_color(depth_image, color_image, camera_intrinsics, camera_extrinsics, scaling_factor=1):
@@ -62,7 +65,7 @@ def get_point_cloud_from_depth_and_color(depth_image, color_image, camera_intrin
     
     points_world = np.dot(R, np.transpose(points)) + t
     points_world = np.transpose(points_world)
-    
+
     points = np.array(points_world)
     colors = np.array(colors)
     colors_normalized = colors / 255.0
@@ -107,49 +110,28 @@ def open3d_point_cloud(points, colors):
     o3d.visualization.draw_geometries([pcd])
 
 
-def get_all_point_clouds(image_dir, touch_depth_dir, colmap_camera_transformations, camera_intrinsics):
+def get_all_point_clouds(image_dir, touch_depth_dir, touch_var_dir, camera_transformations, camera_intrinsics, i_take):
     image_filenames  = sorted(os.listdir(image_dir))
     depth_filenames = sorted(os.listdir(touch_depth_dir))
     
     limited_points_xyz = None
     limited_points_rgb = None
     
-    i_take = list(range(len(image_filenames)))
-    
-    # get images we want
-    # i_take = [0, 12, 24, 37, 49, 61, 74, 86]  # 8 image case
-    
-    # i_take = [0, 1, 2, 4, 5, 6, 8, 9, 11, 12, 13, 15, 16, 18, 19, 20, 22, 23, 25, 26, 27, 29, 30, 32,
-    #                33, 34, 36, 37, 38, 40, 41, 43, 44, 45, 47, 48, 50, 51, 52, 54, 55, 57, 58, 59, 61, 62, 64, 65,
-    #                66, 68, 69]
-    
-    # get the image indices for training
-    
-    i_take = [0, 1, 2, 3, 4, 6, 7, 8, 9, 11, 12, 13, 14, 15, 17, 18, 19, 20, 22, 23, 24, 25, 26, 28, 29, 30, 31, 33, 34, 35, 36, 37, 39, 40, 41, 42, 44, 45, 46, 47, 48, 50, 51, 52, 53, 55, 56, 57, 58, 59, 61, 62, 63, 64, 66, 67, 68, 69]
-    
-    
     for i in range(len(image_filenames)):
         image_filename = image_filenames[i]
         depth_filename = depth_filenames[i]
-        var_dir = 'touch_var'
         
-        var = cv2.imread(f'{var_dir}/{depth_filename}', cv2.IMREAD_ANYDEPTH) / 1000
-        
-        # filter out depths that are too far away
         if i in i_take:
-            # plt.imshow(depth, cmap='viridis')
-            # plt.colorbar()  
-            # plt.show()
             image = cv2.imread(f'{image_dir}/{image_filename}')
             depth = cv2.imread(f'{touch_depth_dir}/{depth_filename}', cv2.IMREAD_ANYDEPTH) / 1000
-            var = cv2.imread(f'{var_dir}/{depth_filename}', cv2.IMREAD_ANYDEPTH) / 1000
-            # depth[depth > 2] = 0
-            # take depths with var less than 0.6
-            depth[var > 0.7] = 0
+            var = cv2.imread(f'{touch_var_dir}/{depth_filename}', cv2.IMREAD_ANYDEPTH) / 1000
+            
+            # take depths with var leq than 0.7
+            # depth[var > 0.7] = 0
         
             image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
             
-            camera_extrinsics = colmap_camera_transformations[image_filename.split('.')[0]]
+            camera_extrinsics = camera_transformations[image_filename.split('.')[0]]
             
             image = cv2.imread(f'{image_dir}/{image_filename}')
             image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
@@ -162,20 +144,8 @@ def get_all_point_clouds(image_dir, touch_depth_dir, colmap_camera_transformatio
                 limited_points_rgb = np.concatenate((limited_points_rgb, colors))
             print('Got point cloud for', image_filename)
             
-            
-    # take a small fraction of the points
-    # limited_points_xyz = limited_points_xyz[::100]
-    # limited_points_rgb = limited_points_rgb[::100]
-
-    # percentage = 20
-
-    # # Calculate the number of points to select
-    # num_to_select = int(len(points) * (percentage / 100))
-
-    # # Use random.sample to randomly select points
-    # selected_points = random.sample(points, num_to_select)
-    
-    percentage = 5
+    # take 100 percent of the points
+    percentage = 100
     
     total_indices = len(limited_points_xyz)
     num_indices_to_select = int(total_indices * (percentage / 100))
@@ -193,21 +163,67 @@ def get_all_point_clouds(image_dir, touch_depth_dir, colmap_camera_transformatio
     return limited_points_xyz, limited_points_rgb * 255.0
     
     
+def get_train_eval_split_fraction(image_filenames, train_split_fraction):
+    """
+    Get the train/eval split fraction based on the number of images and the train split fraction.
+
+    Args:
+        image_filenames: list of image filenames
+        train_split_fraction: fraction of images to use for training
+    """
+
+    # filter image_filenames and poses based on train/eval split percentage
+    num_images = len(image_filenames)
+    num_train_images = math.ceil(num_images * train_split_fraction)
+    num_eval_images = num_images - num_train_images
+    i_all = np.arange(num_images)
+    i_train = np.linspace(
+        0, num_images - 1, num_train_images+1, dtype=int
+    )  # equally spaced training images starting and ending at 0 and num_images-1
+    # remove last value from i_train
+    i_train = i_train[:-1]
+    i_eval = np.setdiff1d(i_all, i_train)  # eval images are the remaining images
+    assert len(i_eval) == num_eval_images
+    
+    print("Train images indices: ", i_train)
+
+    return i_train, i_eval
+    
     
 if __name__ == '__main__':
-    transforms = colmap_utils_transforms.read_nerfstudio_transform_positions('transforms.json', return_full_transforms=True)
+    parser = argparse.ArgumentParser(description='Get indices ')
+    
+    parser.add_argument('--root_dir', type=str, required=True, help='Root dir.')
+    parser.add_argument('--image_dir', type=str, required=True, help='Directory for images.')
+    parser.add_argument('--touch_depth_dir', type=str, required=True, help='Directory for touch depths.')
+    parser.add_argument('--touch_var_dir', type=str, required=True, help='Directory for touch var.')
+    
+    parser.add_argument('--transform_json_path', type=str, required=True, help='Path to transforms.json.')
+    
+    parser.add_argument('--train_split', type=float, required=True, help='Train split.')
+    
+    
+    args = parser.parse_args()
+    
+    root_dir = args.root_dir
+    image_dir = os.path.join(root_dir, args.image_dir)
+    touch_depth_dir = os.path.join(root_dir, args.touch_depth_dir)
+    touch_var_dir = os.path.join(root_dir, args.touch_var_dir)
+    transform_json_path = os.path.join(root_dir, args.transform_json_path)
+    
+    
+    train_split = args.train_split
+    
+    i_train, i_eval = get_train_eval_split_fraction(os.listdir(image_dir), train_split)
+    
+    transforms, camera_instrinsics = transforms_utils.read_nerfstudio_transform_positions(transform_json_path, return_full_transforms=True)
     
     # transforms = colmap_utils_transforms.read_blender_transform_positions('transforms_train_full.json', return_full_transforms=True)
-    fx = 1297
-    fy = 1304
     
-    cx = 620.91
-    cy = 238.28
-    
-    camera_instrinsics = [fx, fy, cx, cy]
-    
-    points, colors = get_all_point_clouds(image_dir='train', touch_depth_dir='touch_depth', colmap_camera_transformations=transforms, camera_intrinsics=camera_instrinsics)
+    points, colors = get_all_point_clouds(image_dir=image_dir, touch_depth_dir=touch_depth_dir, 
+                                          touch_var_dir=touch_var_dir, camera_transformations=transforms, 
+                                          camera_intrinsics=camera_instrinsics, i_take=i_train)
     
     # save points and colors to .npy files
-    np.save('points_bunny.npy', points)
-    np.save('colors_bunny.npy', colors)
+    np.save(f'{root_dir}/points_touch.npy', points)
+    np.save(f'{root_dir}/points_colors.npy', colors)

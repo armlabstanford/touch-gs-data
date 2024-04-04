@@ -48,9 +48,11 @@ def read_nerfstudio_transform_positions(file_path, return_full_transforms=False)
         image_positions[image_id] = t
         Ts[image_id] = T
 
-    if return_full_transforms:
-        return Ts
+    camera_instrinsics = [data["fl_x"], data["fl_y"], data["cx"], data["cy"]]
 
+    if return_full_transforms:
+        return Ts, camera_instrinsics
+    
     return image_positions
 
 def read_colmap_images_txt(file_path, return_full_transforms=False):

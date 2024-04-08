@@ -15,6 +15,13 @@ sleep 1
 
 python3 utils/read_touch_depths.py --base_repo_path block_data
 
+# compute zoe depth maps
+echo "Running monocular depth"
+echo 
+sleep 1
+
+python3 vision_utils/run_zoe_depth.py --root_dir block_data/ --img_dir imgs --output_depth_path blocks_zoe_depth
+
 
 echo "Fusing vision and touch..."
 echo 

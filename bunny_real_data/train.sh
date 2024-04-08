@@ -15,6 +15,14 @@ sleep 1
 
 python3 utils/read_touch_depths.py --base_repo_path bunny_real_data
 
+# compute zoe depth maps
+echo "Running monocular depth"
+echo 
+sleep 1
+
+python3 vision_utils/run_zoe_depth.py --root_dir bunny_real_data/ --img_dir imgs --output_depth_path bunny_zoe_real_world_depth
+
+
 
 echo "Fusing vision and touch..."
 echo 

@@ -44,3 +44,10 @@ echo
 sleep 1
 
 python3 utils/create_point_cloud_from_touches.py --root_dir 'mirror_data' --touch_depth_dir 'touch_depth' --touch_var_dir 'touch_var' --image_dir 'imgs' --transform_json_path 'transforms.json' --train_split 0.8 --percent_take 20
+
+
+ns-train depth-gaussian-splatting --data block_data/ --viewer.quit-on-train-completion True --pipeline.model.depth-loss-mult 0.005 nerfstudio-data --train-split-fraction 0.8
+
+export IS_REAL_WORLD=True
+
+python3 experiment_utils/run_eval.py --input_dir outputs/mirror_data/depth-gaussian-splatting --output_dir experiments --exp_name mirror_data --past_n_trials 1

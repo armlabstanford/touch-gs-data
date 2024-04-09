@@ -299,7 +299,7 @@ def align_vision_depth(grounded_depth_image, touch_depth_image, vision_depth_ima
     
     # only update the vision depth image with the aligned touch depth image mask
     vision_depth_image[mask] = vision_depth_image[mask] + offset
-    vision_depth_image = vision_depth_image + offset
+    # vision_depth_image = vision_depth_image + offset
     vision_depth_image = np.clip(vision_depth_image, a_min=0, a_max=None)
     
     # create uncertainty maps

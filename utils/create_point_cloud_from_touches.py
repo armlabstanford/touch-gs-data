@@ -110,7 +110,7 @@ def open3d_point_cloud(points, colors):
     o3d.visualization.draw_geometries([pcd])
 
 
-def get_all_point_clouds(image_dir, touch_depth_dir, touch_var_dir, camera_transformations, camera_intrinsics, i_take, percent_take):
+def get_all_point_clouds(image_dir, touch_depth_dir, touch_var_dir, camera_transformations, camera_intrinsics, i_take, percent_take, viz=False):
     image_filenames  = sorted(os.listdir(image_dir))
     depth_filenames = sorted(os.listdir(touch_depth_dir))
     
@@ -158,8 +158,9 @@ def get_all_point_clouds(image_dir, touch_depth_dir, touch_var_dir, camera_trans
     
     limited_points_rgb = limited_points_rgb[selected_indices]
     limited_points_xyz = limited_points_xyz[selected_indices]
-
-    open3d_point_cloud(limited_points_xyz, limited_points_rgb)
+    
+    if viz:
+        open3d_point_cloud(limited_points_xyz, limited_points_rgb)
     return limited_points_xyz, limited_points_rgb * 255.0
     
     
@@ -204,6 +205,7 @@ if __name__ == '__main__':
     
     parser.add_argument('--percent_take', type=float, default=100, help='Percent of touch points to take.')
     
+    parser.add_argument('--viz', action='store_true', help='Whether or not to viz.')
     
     
     args = parser.parse_args()
@@ -217,6 +219,8 @@ if __name__ == '__main__':
     percent_take = args.percent_take
     
     train_split = args.train_split
+    
+    viz = args.viz
     
     i_train, i_eval = get_train_eval_split_fraction(os.listdir(image_dir), train_split)
     

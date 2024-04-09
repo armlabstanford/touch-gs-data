@@ -12,7 +12,7 @@
     "camera_model": "OPENCV",
     "frames": [
         {
-            "file_path": "train/c_30.png",
+            "file_path": "imgs/c_30.png",
             "transform_matrix": [
                 [
                     -0.5335699592999877,
@@ -44,7 +44,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_30.png"
         },
         {
-            "file_path": "train/c_31.png",
+            "file_path": "imgs/c_31.png",
             "transform_matrix": [
                 [
                     -0.5406194853685733,
@@ -76,7 +76,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_31.png"
         },
         {
-            "file_path": "train/c_32.png",
+            "file_path": "imgs/c_32.png",
             "transform_matrix": [
                 [
                     -0.5406407196793954,
@@ -108,7 +108,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_32.png"
         },
         {
-            "file_path": "train/c_33.png",
+            "file_path": "imgs/c_33.png",
             "transform_matrix": [
                 [
                     -0.6183012377226375,
@@ -140,7 +140,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_33.png"
         },
         {
-            "file_path": "train/c_36.png",
+            "file_path": "imgs/c_36.png",
             "transform_matrix": [
                 [
                     -0.600619231691991,
@@ -172,7 +172,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_36.png"
         },
         {
-            "file_path": "train/c_37.png",
+            "file_path": "imgs/c_37.png",
             "transform_matrix": [
                 [
                     -0.5926574802371201,
@@ -204,7 +204,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_37.png"
         },
         {
-            "file_path": "train/c_41.png",
+            "file_path": "imgs/c_41.png",
             "transform_matrix": [
                 [
                     -0.6237416810148315,
@@ -236,7 +236,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_41.png"
         },
         {
-            "file_path": "train/c_43.png",
+            "file_path": "imgs/c_43.png",
             "transform_matrix": [
                 [
                     -0.8410199066339296,
@@ -268,7 +268,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_43.png"
         },
         {
-            "file_path": "train/c_44.png",
+            "file_path": "imgs/c_44.png",
             "transform_matrix": [
                 [
                     -0.8439950669300594,
@@ -300,7 +300,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_44.png"
         },
         {
-            "file_path": "train/c_45.png",
+            "file_path": "imgs/c_45.png",
             "transform_matrix": [
                 [
                     -0.8568083298517217,
@@ -332,7 +332,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_45.png"
         },
         {
-            "file_path": "train/c_46.png",
+            "file_path": "imgs/c_46.png",
             "transform_matrix": [
                 [
                     -0.9147835796323738,
@@ -364,7 +364,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_46.png"
         },
         {
-            "file_path": "train/c_47.png",
+            "file_path": "imgs/c_47.png",
             "transform_matrix": [
                 [
                     -0.9337606455477319,
@@ -396,7 +396,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_47.png"
         },
         {
-            "file_path": "train/c_48.png",
+            "file_path": "imgs/c_48.png",
             "transform_matrix": [
                 [
                     -0.9364375461679993,
@@ -428,7 +428,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_48.png"
         },
         {
-            "file_path": "train/c_49.png",
+            "file_path": "imgs/c_49.png",
             "transform_matrix": [
                 [
                     -0.9193387768407846,
@@ -460,7 +460,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_49.png"
         },
         {
-            "file_path": "train/c_50.png",
+            "file_path": "imgs/c_50.png",
             "transform_matrix": [
                 [
                     -0.8479009167070678,
@@ -492,7 +492,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_50.png"
         },
         {
-            "file_path": "train/c_51.png",
+            "file_path": "imgs/c_51.png",
             "transform_matrix": [
                 [
                     -0.87942601287735,
@@ -524,7 +524,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_51.png"
         },
         {
-            "file_path": "train/c_52.png",
+            "file_path": "imgs/c_52.png",
             "transform_matrix": [
                 [
                     -0.894347505921632,
@@ -556,7 +556,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_52.png"
         },
         {
-            "file_path": "train/c_53.png",
+            "file_path": "imgs/c_53.png",
             "transform_matrix": [
                 [
                     -0.9008138066023135,
@@ -588,7 +588,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_53.png"
         },
         {
-            "file_path": "train/c_54.png",
+            "file_path": "imgs/c_54.png",
             "transform_matrix": [
                 [
                     -0.9348218934713618,
@@ -620,7 +620,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_54.png"
         },
         {
-            "file_path": "train/c_55.png",
+            "file_path": "imgs/c_55.png",
             "transform_matrix": [
                 [
                     -0.9605904744518923,
@@ -652,7 +652,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_55.png"
         },
         {
-            "file_path": "train/c_56.png",
+            "file_path": "imgs/c_56.png",
             "transform_matrix": [
                 [
                     -0.9642432654126146,
@@ -684,7 +684,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_56.png"
         },
         {
-            "file_path": "train/c_57.png",
+            "file_path": "imgs/c_57.png",
             "transform_matrix": [
                 [
                     -0.9647324566873338,
@@ -716,7 +716,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_57.png"
         },
         {
-            "file_path": "train/c_58.png",
+            "file_path": "imgs/c_58.png",
             "transform_matrix": [
                 [
                     -0.976382620848569,
@@ -748,7 +748,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_58.png"
         },
         {
-            "file_path": "train/c_59.png",
+            "file_path": "imgs/c_59.png",
             "transform_matrix": [
                 [
                     -0.9936577318498034,
@@ -780,7 +780,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_59.png"
         },
         {
-            "file_path": "train/c_60.png",
+            "file_path": "imgs/c_60.png",
             "transform_matrix": [
                 [
                     -0.9988120763607102,
@@ -812,7 +812,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_60.png"
         },
         {
-            "file_path": "train/c_61.png",
+            "file_path": "imgs/c_61.png",
             "transform_matrix": [
                 [
                     -0.9992355665117092,
@@ -844,7 +844,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_61.png"
         },
         {
-            "file_path": "train/c_63.png",
+            "file_path": "imgs/c_63.png",
             "transform_matrix": [
                 [
                     -0.9894921902435582,
@@ -876,7 +876,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_63.png"
         },
         {
-            "file_path": "train/c_64.png",
+            "file_path": "imgs/c_64.png",
             "transform_matrix": [
                 [
                     -0.989896212896294,
@@ -908,7 +908,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_64.png"
         },
         {
-            "file_path": "train/c_66.png",
+            "file_path": "imgs/c_66.png",
             "transform_matrix": [
                 [
                     -0.9784073604007097,
@@ -940,7 +940,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_66.png"
         },
         {
-            "file_path": "train/c_68.png",
+            "file_path": "imgs/c_68.png",
             "transform_matrix": [
                 [
                     -0.9910552399470888,
@@ -972,7 +972,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_68.png"
         },
         {
-            "file_path": "train/c_69.png",
+            "file_path": "imgs/c_69.png",
             "transform_matrix": [
                 [
                     -0.9908888375221017,
@@ -1004,7 +1004,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_69.png"
         },
         {
-            "file_path": "train/c_70.png",
+            "file_path": "imgs/c_70.png",
             "transform_matrix": [
                 [
                     -0.9899938430934885,
@@ -1036,7 +1036,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_70.png"
         },
         {
-            "file_path": "train/c_71.png",
+            "file_path": "imgs/c_71.png",
             "transform_matrix": [
                 [
                     -0.9857493836756487,
@@ -1068,7 +1068,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_71.png"
         },
         {
-            "file_path": "train/c_72.png",
+            "file_path": "imgs/c_72.png",
             "transform_matrix": [
                 [
                     -0.9822666973093707,
@@ -1100,7 +1100,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_72.png"
         },
         {
-            "file_path": "train/c_73.png",
+            "file_path": "imgs/c_73.png",
             "transform_matrix": [
                 [
                     -0.97678350324528,
@@ -1132,7 +1132,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_73.png"
         },
         {
-            "file_path": "train/c_76.png",
+            "file_path": "imgs/c_76.png",
             "transform_matrix": [
                 [
                     -0.9720131647476767,
@@ -1164,7 +1164,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_76.png"
         },
         {
-            "file_path": "train/c_77.png",
+            "file_path": "imgs/c_77.png",
             "transform_matrix": [
                 [
                     -0.9721348947314526,
@@ -1196,7 +1196,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_77.png"
         },
         {
-            "file_path": "train/c_78.png",
+            "file_path": "imgs/c_78.png",
             "transform_matrix": [
                 [
                     -0.9854466602987725,
@@ -1228,7 +1228,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_78.png"
         },
         {
-            "file_path": "train/c_79.png",
+            "file_path": "imgs/c_79.png",
             "transform_matrix": [
                 [
                     -0.989979360838315,
@@ -1260,7 +1260,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_79.png"
         },
         {
-            "file_path": "train/c_80.png",
+            "file_path": "imgs/c_80.png",
             "transform_matrix": [
                 [
                     -0.9916686216973468,
@@ -1292,7 +1292,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_80.png"
         },
         {
-            "file_path": "train/c_86.png",
+            "file_path": "imgs/c_86.png",
             "transform_matrix": [
                 [
                     -0.999846687957949,
@@ -1324,7 +1324,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_86.png"
         },
         {
-            "file_path": "train/c_87.png",
+            "file_path": "imgs/c_87.png",
             "transform_matrix": [
                 [
                     -0.9966538354287012,
@@ -1356,7 +1356,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_87.png"
         },
         {
-            "file_path": "train/c_88.png",
+            "file_path": "imgs/c_88.png",
             "transform_matrix": [
                 [
                     -0.985494903494136,
@@ -1388,7 +1388,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_88.png"
         },
         {
-            "file_path": "train/c_89.png",
+            "file_path": "imgs/c_89.png",
             "transform_matrix": [
                 [
                     -0.9764333001757532,
@@ -1420,7 +1420,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_89.png"
         },
         {
-            "file_path": "train/c_90.png",
+            "file_path": "imgs/c_90.png",
             "transform_matrix": [
                 [
                     -0.9689112016951759,
@@ -1452,7 +1452,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_90.png"
         },
         {
-            "file_path": "train/c_91.png",
+            "file_path": "imgs/c_91.png",
             "transform_matrix": [
                 [
                     -0.9789286973728802,
@@ -1484,7 +1484,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_91.png"
         },
         {
-            "file_path": "train/c_92.png",
+            "file_path": "imgs/c_92.png",
             "transform_matrix": [
                 [
                     -0.9826080953879878,
@@ -1516,7 +1516,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_92.png"
         },
         {
-            "file_path": "train/c_93.png",
+            "file_path": "imgs/c_93.png",
             "transform_matrix": [
                 [
                     -0.9629859458019622,
@@ -1548,7 +1548,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_93.png"
         },
         {
-            "file_path": "train/c_94.png",
+            "file_path": "imgs/c_94.png",
             "transform_matrix": [
                 [
                     -0.9784388696573829,
@@ -1580,7 +1580,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_94.png"
         },
         {
-            "file_path": "train/c_95.png",
+            "file_path": "imgs/c_95.png",
             "transform_matrix": [
                 [
                     -0.9984902460398934,
@@ -1612,7 +1612,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_95.png"
         },
         {
-            "file_path": "train/c_103.png",
+            "file_path": "imgs/c_103.png",
             "transform_matrix": [
                 [
                     -0.7048941369073267,
@@ -1644,7 +1644,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_103.png"
         },
         {
-            "file_path": "train/c_104.png",
+            "file_path": "imgs/c_104.png",
             "transform_matrix": [
                 [
                     -0.6956285710938106,
@@ -1676,7 +1676,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_104.png"
         },
         {
-            "file_path": "train/c_105.png",
+            "file_path": "imgs/c_105.png",
             "transform_matrix": [
                 [
                     -0.5494497208185509,
@@ -1708,7 +1708,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_105.png"
         },
         {
-            "file_path": "train/c_107.png",
+            "file_path": "imgs/c_107.png",
             "transform_matrix": [
                 [
                     -0.23790558389953576,
@@ -1740,7 +1740,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_107.png"
         },
         {
-            "file_path": "train/c_109.png",
+            "file_path": "imgs/c_109.png",
             "transform_matrix": [
                 [
                     0.0010508860809652631,
@@ -1772,7 +1772,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_109.png"
         },
         {
-            "file_path": "train/c_110.png",
+            "file_path": "imgs/c_110.png",
             "transform_matrix": [
                 [
                     -0.13732354655204537,
@@ -1804,7 +1804,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_110.png"
         },
         {
-            "file_path": "train/c_114.png",
+            "file_path": "imgs/c_114.png",
             "transform_matrix": [
                 [
                     -0.19372321315862173,
@@ -1836,7 +1836,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_114.png"
         },
         {
-            "file_path": "train/c_116.png",
+            "file_path": "imgs/c_116.png",
             "transform_matrix": [
                 [
                     -0.10965278978761828,
@@ -1868,7 +1868,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_116.png"
         },
         {
-            "file_path": "train/c_117.png",
+            "file_path": "imgs/c_117.png",
             "transform_matrix": [
                 [
                     0.029336778455818058,
@@ -1900,7 +1900,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_117.png"
         },
         {
-            "file_path": "train/c_118.png",
+            "file_path": "imgs/c_118.png",
             "transform_matrix": [
                 [
                     -0.2593089492915025,
@@ -1932,7 +1932,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_118.png"
         },
         {
-            "file_path": "train/c_119.png",
+            "file_path": "imgs/c_119.png",
             "transform_matrix": [
                 [
                     -0.038407130266478795,
@@ -1964,7 +1964,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_119.png"
         },
         {
-            "file_path": "train/c_120.png",
+            "file_path": "imgs/c_120.png",
             "transform_matrix": [
                 [
                     0.11126327406739733,
@@ -1996,7 +1996,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_120.png"
         },
         {
-            "file_path": "train/c_122.png",
+            "file_path": "imgs/c_122.png",
             "transform_matrix": [
                 [
                     0.2627866911755242,
@@ -2028,7 +2028,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_122.png"
         },
         {
-            "file_path": "train/c_125.png",
+            "file_path": "imgs/c_125.png",
             "transform_matrix": [
                 [
                     0.3342100970526563,
@@ -2060,7 +2060,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_125.png"
         },
         {
-            "file_path": "train/c_126.png",
+            "file_path": "imgs/c_126.png",
             "transform_matrix": [
                 [
                     0.4543798019374245,
@@ -2092,7 +2092,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_126.png"
         },
         {
-            "file_path": "train/c_127.png",
+            "file_path": "imgs/c_127.png",
             "transform_matrix": [
                 [
                     0.5323708395144475,
@@ -2124,7 +2124,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_127.png"
         },
         {
-            "file_path": "train/c_128.png",
+            "file_path": "imgs/c_128.png",
             "transform_matrix": [
                 [
                     0.5617159690732892,
@@ -2156,7 +2156,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_128.png"
         },
         {
-            "file_path": "train/c_129.png",
+            "file_path": "imgs/c_129.png",
             "transform_matrix": [
                 [
                     0.6244678759290365,
@@ -2188,7 +2188,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_129.png"
         },
         {
-            "file_path": "train/c_131.png",
+            "file_path": "imgs/c_131.png",
             "transform_matrix": [
                 [
                     0.800558428655903,
@@ -2220,7 +2220,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_131.png"
         },
         {
-            "file_path": "train/c_132.png",
+            "file_path": "imgs/c_132.png",
             "transform_matrix": [
                 [
                     0.7648359633115243,
@@ -2252,7 +2252,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_132.png"
         },
         {
-            "file_path": "train/c_133.png",
+            "file_path": "imgs/c_133.png",
             "transform_matrix": [
                 [
                     0.7344763604971498,
@@ -2284,7 +2284,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_133.png"
         },
         {
-            "file_path": "train/c_134.png",
+            "file_path": "imgs/c_134.png",
             "transform_matrix": [
                 [
                     0.775623408349083,
@@ -2316,7 +2316,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_134.png"
         },
         {
-            "file_path": "train/c_135.png",
+            "file_path": "imgs/c_135.png",
             "transform_matrix": [
                 [
                     0.8568102160353549,
@@ -2348,7 +2348,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_135.png"
         },
         {
-            "file_path": "train/c_136.png",
+            "file_path": "imgs/c_136.png",
             "transform_matrix": [
                 [
                     0.932031698292794,
@@ -2380,7 +2380,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_136.png"
         },
         {
-            "file_path": "train/c_137.png",
+            "file_path": "imgs/c_137.png",
             "transform_matrix": [
                 [
                     0.957445120290113,
@@ -2412,7 +2412,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_137.png"
         },
         {
-            "file_path": "train/c_138.png",
+            "file_path": "imgs/c_138.png",
             "transform_matrix": [
                 [
                     0.970016525946896,
@@ -2444,7 +2444,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_138.png"
         },
         {
-            "file_path": "train/c_139.png",
+            "file_path": "imgs/c_139.png",
             "transform_matrix": [
                 [
                     0.9878957905122538,
@@ -2476,7 +2476,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_139.png"
         },
         {
-            "file_path": "train/c_140.png",
+            "file_path": "imgs/c_140.png",
             "transform_matrix": [
                 [
                     0.9801650525460136,
@@ -2508,7 +2508,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_140.png"
         },
         {
-            "file_path": "train/c_141.png",
+            "file_path": "imgs/c_141.png",
             "transform_matrix": [
                 [
                     0.9832821814546896,
@@ -2540,7 +2540,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_141.png"
         },
         {
-            "file_path": "train/c_142.png",
+            "file_path": "imgs/c_142.png",
             "transform_matrix": [
                 [
                     0.9996077289733833,
@@ -2572,7 +2572,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_142.png"
         },
         {
-            "file_path": "train/c_143.png",
+            "file_path": "imgs/c_143.png",
             "transform_matrix": [
                 [
                     0.9953996951323981,
@@ -2604,7 +2604,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_143.png"
         },
         {
-            "file_path": "train/c_144.png",
+            "file_path": "imgs/c_144.png",
             "transform_matrix": [
                 [
                     0.9955686673941687,
@@ -2636,7 +2636,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_144.png"
         },
         {
-            "file_path": "train/c_145.png",
+            "file_path": "imgs/c_145.png",
             "transform_matrix": [
                 [
                     0.9851208120799523,
@@ -2668,7 +2668,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_145.png"
         },
         {
-            "file_path": "train/c_147.png",
+            "file_path": "imgs/c_147.png",
             "transform_matrix": [
                 [
                     0.9688077671329193,
@@ -2700,7 +2700,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_147.png"
         },
         {
-            "file_path": "train/c_150.png",
+            "file_path": "imgs/c_150.png",
             "transform_matrix": [
                 [
                     0.9760450237258511,
@@ -2732,7 +2732,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_150.png"
         },
         {
-            "file_path": "train/c_152.png",
+            "file_path": "imgs/c_152.png",
             "transform_matrix": [
                 [
                     0.9973555807406501,
@@ -2764,7 +2764,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_152.png"
         },
         {
-            "file_path": "train/c_153.png",
+            "file_path": "imgs/c_153.png",
             "transform_matrix": [
                 [
                     0.98735731019376,
@@ -2796,7 +2796,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_153.png"
         },
         {
-            "file_path": "train/c_154.png",
+            "file_path": "imgs/c_154.png",
             "transform_matrix": [
                 [
                     0.9831789450144259,
@@ -2828,7 +2828,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_154.png"
         },
         {
-            "file_path": "train/c_155.png",
+            "file_path": "imgs/c_155.png",
             "transform_matrix": [
                 [
                     0.9671479440269998,
@@ -2860,7 +2860,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_155.png"
         },
         {
-            "file_path": "train/c_157.png",
+            "file_path": "imgs/c_157.png",
             "transform_matrix": [
                 [
                     0.8487521960890492,
@@ -2892,7 +2892,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_157.png"
         },
         {
-            "file_path": "train/c_189.png",
+            "file_path": "imgs/c_189.png",
             "transform_matrix": [
                 [
                     -0.7010039381376814,
@@ -2924,7 +2924,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_189.png"
         },
         {
-            "file_path": "train/c_191.png",
+            "file_path": "imgs/c_191.png",
             "transform_matrix": [
                 [
                     -0.8084418232241202,
@@ -2956,7 +2956,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_191.png"
         },
         {
-            "file_path": "train/c_193.png",
+            "file_path": "imgs/c_193.png",
             "transform_matrix": [
                 [
                     -0.9454480952020847,
@@ -2988,7 +2988,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_193.png"
         },
         {
-            "file_path": "train/c_194.png",
+            "file_path": "imgs/c_194.png",
             "transform_matrix": [
                 [
                     -0.9692400611907895,
@@ -3020,7 +3020,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_194.png"
         },
         {
-            "file_path": "train/c_229.png",
+            "file_path": "imgs/c_229.png",
             "transform_matrix": [
                 [
                     0.034393615798036625,
@@ -3052,7 +3052,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_229.png"
         },
         {
-            "file_path": "train/c_231.png",
+            "file_path": "imgs/c_231.png",
             "transform_matrix": [
                 [
                     0.11754784527268375,
@@ -3084,7 +3084,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_231.png"
         },
         {
-            "file_path": "train/c_234.png",
+            "file_path": "imgs/c_234.png",
             "transform_matrix": [
                 [
                     -0.27478471259731396,
@@ -3116,7 +3116,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_234.png"
         },
         {
-            "file_path": "train/c_243.png",
+            "file_path": "imgs/c_243.png",
             "transform_matrix": [
                 [
                     0.5935509519631675,
@@ -3148,7 +3148,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_243.png"
         },
         {
-            "file_path": "train/c_244.png",
+            "file_path": "imgs/c_244.png",
             "transform_matrix": [
                 [
                     0.6868034965295537,
@@ -3180,7 +3180,7 @@
             "uncertainty_file_path": "fused_output_dir_uncertainty/c_244.png"
         },
         {
-            "file_path": "train/c_245.png",
+            "file_path": "imgs/c_245.png",
             "transform_matrix": [
                 [
                     0.9343852491137293,

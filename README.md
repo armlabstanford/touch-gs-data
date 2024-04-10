@@ -1,4 +1,4 @@
-# Touch-GS Data
+# 💾 Touch-GS Data
 Official Dataset and Preprocessing Module for Touch-GS: Visual-Tactile Supervised 3D Gaussian Splatting
 
 

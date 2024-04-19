@@ -1,14 +1,14 @@
 {
-    "w": 900,
-    "h": 900,
-    "fl_x": 900.0,
-    "fl_y": 900.0,
-    "cx": 450.0,
-    "cy": 450.0,
+    "w": 1800,
+    "h": 1800,
+    "fl_x": 1800,
+    "fl_y": 1800,
+    "cx": 900,
+    "cy": 900,
     "camera_angle_x": 0.9272952079772949,
     "frames": [
         {
-            "file_path": "resized_image/0001.png",
+            "file_path": "imgs/0001.png",
             "transform_matrix": [
                 [
                     0.9771605730056763,
@@ -36,11 +36,11 @@
                 ]
             ],
             "depth_filename": "depth/0001.png",
-            "depth_file_path": "resized_depth/0001.png",
-            "uncertainty_file_path": "resized_uncertainty/0001.png"
+            "depth_file_path": "fused_output_dir/0001.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/0001.png"
         },
         {
-            "file_path": "resized_image/0004.png",
+            "file_path": "imgs/0004.png",
             "transform_matrix": [
                 [
                     0.9290846586227417,
@@ -68,11 +68,11 @@
                 ]
             ],
             "depth_filename": "depth/0004.png",
-            "depth_file_path": "resized_depth/0004.png",
-            "uncertainty_file_path": "resized_uncertainty/0004.png"
+            "depth_file_path": "fused_output_dir/0004.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/0004.png"
         },
         {
-            "file_path": "resized_image/0007.png",
+            "file_path": "imgs/0007.png",
             "transform_matrix": [
                 [
                     0.8582855463027954,
@@ -100,11 +100,11 @@
                 ]
             ],
             "depth_filename": "depth/0007.png",
-            "depth_file_path": "resized_depth/0007.png",
-            "uncertainty_file_path": "resized_uncertainty/0007.png"
+            "depth_file_path": "fused_output_dir/0007.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/0007.png"
         },
         {
-            "file_path": "resized_image/0010.png",
+            "file_path": "imgs/0010.png",
             "transform_matrix": [
                 [
                     0.7676089406013489,
@@ -132,11 +132,11 @@
                 ]
             ],
             "depth_filename": "depth/0010.png",
-            "depth_file_path": "resized_depth/0010.png",
-            "uncertainty_file_path": "resized_uncertainty/0010.png"
+            "depth_file_path": "fused_output_dir/0010.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/0010.png"
         },
         {
-            "file_path": "resized_image/0013.png",
+            "file_path": "imgs/0013.png",
             "transform_matrix": [
                 [
                     0.6599374413490295,
@@ -164,11 +164,11 @@
                 ]
             ],
             "depth_filename": "depth/0013.png",
-            "depth_file_path": "resized_depth/0013.png",
-            "uncertainty_file_path": "resized_uncertainty/0013.png"
+            "depth_file_path": "fused_output_dir/0013.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/0013.png"
         },
         {
-            "file_path": "resized_image/0016.png",
+            "file_path": "imgs/0016.png",
             "transform_matrix": [
                 [
                     0.5381348729133606,
@@ -196,11 +196,11 @@
                 ]
             ],
             "depth_filename": "depth/0016.png",
-            "depth_file_path": "resized_depth/0016.png",
-            "uncertainty_file_path": "resized_uncertainty/0016.png"
+            "depth_file_path": "fused_output_dir/0016.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/0016.png"
         },
         {
-            "file_path": "resized_image/0019.png",
+            "file_path": "imgs/0019.png",
             "transform_matrix": [
                 [
                     0.4047178626060486,
@@ -228,11 +228,11 @@
                 ]
             ],
             "depth_filename": "depth/0019.png",
-            "depth_file_path": "resized_depth/0019.png",
-            "uncertainty_file_path": "resized_uncertainty/0019.png"
+            "depth_file_path": "fused_output_dir/0019.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/0019.png"
         },
         {
-            "file_path": "resized_image/0022.png",
+            "file_path": "imgs/0022.png",
             "transform_matrix": [
                 [
                     0.26252150535583496,
@@ -260,11 +260,11 @@
                 ]
             ],
             "depth_filename": "depth/0022.png",
-            "depth_file_path": "resized_depth/0022.png",
-            "uncertainty_file_path": "resized_uncertainty/0022.png"
+            "depth_file_path": "fused_output_dir/0022.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/0022.png"
         },
         {
-            "file_path": "resized_image/0025.png",
+            "file_path": "imgs/0025.png",
             "transform_matrix": [
                 [
                     0.11404635012149811,
@@ -292,11 +292,11 @@
                 ]
             ],
             "depth_filename": "depth/0025.png",
-            "depth_file_path": "resized_depth/0025.png",
-            "uncertainty_file_path": "resized_uncertainty/0025.png"
+            "depth_file_path": "fused_output_dir/0025.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/0025.png"
         },
         {
-            "file_path": "resized_image/0028.png",
+            "file_path": "imgs/0028.png",
             "transform_matrix": [
                 [
                     -0.038073014467954636,
@@ -324,11 +324,11 @@
                 ]
             ],
             "depth_filename": "depth/0028.png",
-            "depth_file_path": "resized_depth/0028.png",
-            "uncertainty_file_path": "resized_uncertainty/0028.png"
+            "depth_file_path": "fused_output_dir/0028.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/0028.png"
         },
         {
-            "file_path": "resized_image/0031.png",
+            "file_path": "imgs/0031.png",
             "transform_matrix": [
                 [
                     -0.1905944049358368,
@@ -356,11 +356,11 @@
                 ]
             ],
             "depth_filename": "depth/0031.png",
-            "depth_file_path": "resized_depth/0031.png",
-            "uncertainty_file_path": "resized_uncertainty/0031.png"
+            "depth_file_path": "fused_output_dir/0031.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/0031.png"
         },
         {
-            "file_path": "resized_image/0034.png",
+            "file_path": "imgs/0034.png",
             "transform_matrix": [
                 [
                     -0.3410169780254364,
@@ -388,11 +388,11 @@
                 ]
             ],
             "depth_filename": "depth/0034.png",
-            "depth_file_path": "resized_depth/0034.png",
-            "uncertainty_file_path": "resized_uncertainty/0034.png"
+            "depth_file_path": "fused_output_dir/0034.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/0034.png"
         },
         {
-            "file_path": "resized_image/0037.png",
+            "file_path": "imgs/0037.png",
             "transform_matrix": [
                 [
                     -0.485690176486969,
@@ -420,11 +420,11 @@
                 ]
             ],
             "depth_filename": "depth/0037.png",
-            "depth_file_path": "resized_depth/0037.png",
-            "uncertainty_file_path": "resized_uncertainty/0037.png"
+            "depth_file_path": "fused_output_dir/0037.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/0037.png"
         },
         {
-            "file_path": "resized_image/0040.png",
+            "file_path": "imgs/0040.png",
             "transform_matrix": [
                 [
                     -0.6213817596435547,
@@ -452,11 +452,11 @@
                 ]
             ],
             "depth_filename": "depth/0040.png",
-            "depth_file_path": "resized_depth/0040.png",
-            "uncertainty_file_path": "resized_uncertainty/0040.png"
+            "depth_file_path": "fused_output_dir/0040.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/0040.png"
         },
         {
-            "file_path": "resized_image/0043.png",
+            "file_path": "imgs/0043.png",
             "transform_matrix": [
                 [
                     -0.7438690066337585,
@@ -484,11 +484,11 @@
                 ]
             ],
             "depth_filename": "depth/0043.png",
-            "depth_file_path": "resized_depth/0043.png",
-            "uncertainty_file_path": "resized_uncertainty/0043.png"
+            "depth_file_path": "fused_output_dir/0043.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/0043.png"
         },
         {
-            "file_path": "resized_image/0046.png",
+            "file_path": "imgs/0046.png",
             "transform_matrix": [
                 [
                     -0.8485496044158936,
@@ -516,11 +516,11 @@
                 ]
             ],
             "depth_filename": "depth/0046.png",
-            "depth_file_path": "resized_depth/0046.png",
-            "uncertainty_file_path": "resized_uncertainty/0046.png"
+            "depth_file_path": "fused_output_dir/0046.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/0046.png"
         },
         {
-            "file_path": "resized_image/0049.png",
+            "file_path": "imgs/0049.png",
             "transform_matrix": [
                 [
                     -0.9303379058837891,
@@ -548,11 +548,11 @@
                 ]
             ],
             "depth_filename": "depth/0049.png",
-            "depth_file_path": "resized_depth/0049.png",
-            "uncertainty_file_path": "resized_uncertainty/0049.png"
+            "depth_file_path": "fused_output_dir/0049.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/0049.png"
         },
         {
-            "file_path": "resized_image/0052.png",
+            "file_path": "imgs/0052.png",
             "transform_matrix": [
                 [
                     -0.9828851819038391,
@@ -580,11 +580,11 @@
                 ]
             ],
             "depth_filename": "depth/0052.png",
-            "depth_file_path": "resized_depth/0052.png",
-            "uncertainty_file_path": "resized_uncertainty/0052.png"
+            "depth_file_path": "fused_output_dir/0052.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/0052.png"
         },
         {
-            "file_path": "resized_image/0055.png",
+            "file_path": "imgs/0055.png",
             "transform_matrix": [
                 [
                     -0.9998766183853149,
@@ -612,11 +612,11 @@
                 ]
             ],
             "depth_filename": "depth/0055.png",
-            "depth_file_path": "resized_depth/0055.png",
-            "uncertainty_file_path": "resized_uncertainty/0055.png"
+            "depth_file_path": "fused_output_dir/0055.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/0055.png"
         },
         {
-            "file_path": "resized_image/0058.png",
+            "file_path": "imgs/0058.png",
             "transform_matrix": [
                 [
                     -0.9743512868881226,
@@ -644,11 +644,11 @@
                 ]
             ],
             "depth_filename": "depth/0058.png",
-            "depth_file_path": "resized_depth/0058.png",
-            "uncertainty_file_path": "resized_uncertainty/0058.png"
+            "depth_file_path": "fused_output_dir/0058.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/0058.png"
         },
         {
-            "file_path": "resized_image/0061.png",
+            "file_path": "imgs/0061.png",
             "transform_matrix": [
                 [
                     -0.9003890752792358,
@@ -676,11 +676,11 @@
                 ]
             ],
             "depth_filename": "depth/0061.png",
-            "depth_file_path": "resized_depth/0061.png",
-            "uncertainty_file_path": "resized_uncertainty/0061.png"
+            "depth_file_path": "fused_output_dir/0061.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/0061.png"
         },
         {
-            "file_path": "resized_image/0064.png",
+            "file_path": "imgs/0064.png",
             "transform_matrix": [
                 [
                     -0.7750105261802673,
@@ -708,11 +708,11 @@
                 ]
             ],
             "depth_filename": "depth/0064.png",
-            "depth_file_path": "resized_depth/0064.png",
-            "uncertainty_file_path": "resized_uncertainty/0064.png"
+            "depth_file_path": "fused_output_dir/0064.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/0064.png"
         },
         {
-            "file_path": "resized_image/0067.png",
+            "file_path": "imgs/0067.png",
             "transform_matrix": [
                 [
                     -0.6000030040740967,
@@ -740,11 +740,11 @@
                 ]
             ],
             "depth_filename": "depth/0067.png",
-            "depth_file_path": "resized_depth/0067.png",
-            "uncertainty_file_path": "resized_uncertainty/0067.png"
+            "depth_file_path": "fused_output_dir/0067.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/0067.png"
         },
         {
-            "file_path": "resized_image/0070.png",
+            "file_path": "imgs/0070.png",
             "transform_matrix": [
                 [
                     -0.3845151662826538,
@@ -772,11 +772,11 @@
                 ]
             ],
             "depth_filename": "depth/0070.png",
-            "depth_file_path": "resized_depth/0070.png",
-            "uncertainty_file_path": "resized_uncertainty/0070.png"
+            "depth_file_path": "fused_output_dir/0070.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/0070.png"
         },
         {
-            "file_path": "resized_image/0073.png",
+            "file_path": "imgs/0073.png",
             "transform_matrix": [
                 [
                     -0.14386312663555145,
@@ -804,11 +804,11 @@
                 ]
             ],
             "depth_filename": "depth/0073.png",
-            "depth_file_path": "resized_depth/0073.png",
-            "uncertainty_file_path": "resized_uncertainty/0073.png"
+            "depth_file_path": "fused_output_dir/0073.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/0073.png"
         },
         {
-            "file_path": "resized_image/0076.png",
+            "file_path": "imgs/0076.png",
             "transform_matrix": [
                 [
                     0.10213213413953781,
@@ -836,11 +836,11 @@
                 ]
             ],
             "depth_filename": "depth/0076.png",
-            "depth_file_path": "resized_depth/0076.png",
-            "uncertainty_file_path": "resized_uncertainty/0076.png"
+            "depth_file_path": "fused_output_dir/0076.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/0076.png"
         },
         {
-            "file_path": "resized_image/0079.png",
+            "file_path": "imgs/0079.png",
             "transform_matrix": [
                 [
                     0.3354796767234802,
@@ -868,11 +868,11 @@
                 ]
             ],
             "depth_filename": "depth/0079.png",
-            "depth_file_path": "resized_depth/0079.png",
-            "uncertainty_file_path": "resized_uncertainty/0079.png"
+            "depth_file_path": "fused_output_dir/0079.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/0079.png"
         },
         {
-            "file_path": "resized_image/0082.png",
+            "file_path": "imgs/0082.png",
             "transform_matrix": [
                 [
                     0.5407997369766235,
@@ -900,11 +900,11 @@
                 ]
             ],
             "depth_filename": "depth/0082.png",
-            "depth_file_path": "resized_depth/0082.png",
-            "uncertainty_file_path": "resized_uncertainty/0082.png"
+            "depth_file_path": "fused_output_dir/0082.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/0082.png"
         },
         {
-            "file_path": "resized_image/0085.png",
+            "file_path": "imgs/0085.png",
             "transform_matrix": [
                 [
                     0.7100347876548767,
@@ -932,11 +932,11 @@
                 ]
             ],
             "depth_filename": "depth/0085.png",
-            "depth_file_path": "resized_depth/0085.png",
-            "uncertainty_file_path": "resized_uncertainty/0085.png"
+            "depth_file_path": "fused_output_dir/0085.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/0085.png"
         },
         {
-            "file_path": "resized_image/0088.png",
+            "file_path": "imgs/0088.png",
             "transform_matrix": [
                 [
                     0.8395047187805176,
@@ -964,11 +964,11 @@
                 ]
             ],
             "depth_filename": "depth/0088.png",
-            "depth_file_path": "resized_depth/0088.png",
-            "uncertainty_file_path": "resized_uncertainty/0088.png"
+            "depth_file_path": "fused_output_dir/0088.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/0088.png"
         },
         {
-            "file_path": "resized_image/0091.png",
+            "file_path": "imgs/0091.png",
             "transform_matrix": [
                 [
                     0.9292635321617126,
@@ -996,11 +996,11 @@
                 ]
             ],
             "depth_filename": "depth/0091.png",
-            "depth_file_path": "resized_depth/0091.png",
-            "uncertainty_file_path": "resized_uncertainty/0091.png"
+            "depth_file_path": "fused_output_dir/0091.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/0091.png"
         },
         {
-            "file_path": "resized_image/0094.png",
+            "file_path": "imgs/0094.png",
             "transform_matrix": [
                 [
                     0.9816992282867432,
@@ -1028,11 +1028,11 @@
                 ]
             ],
             "depth_filename": "depth/0094.png",
-            "depth_file_path": "resized_depth/0094.png",
-            "uncertainty_file_path": "resized_uncertainty/0094.png"
+            "depth_file_path": "fused_output_dir/0094.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/0094.png"
         },
         {
-            "file_path": "resized_image/0097.png",
+            "file_path": "imgs/0097.png",
             "transform_matrix": [
                 [
                     0.9999109506607056,
@@ -1060,11 +1060,11 @@
                 ]
             ],
             "depth_filename": "depth/0097.png",
-            "depth_file_path": "resized_depth/0097.png",
-            "uncertainty_file_path": "resized_uncertainty/0097.png"
+            "depth_file_path": "fused_output_dir/0097.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/0097.png"
         },
         {
-            "file_path": "resized_image/0100.png",
+            "file_path": "imgs/0100.png",
             "transform_matrix": [
                 [
                     0.9874393939971924,
@@ -1092,8 +1092,8 @@
                 ]
             ],
             "depth_filename": "depth/0100.png",
-            "depth_file_path": "resized_depth/0100.png",
-            "uncertainty_file_path": "resized_uncertainty/0100.png"
+            "depth_file_path": "fused_output_dir/0100.png",
+            "uncertainty_file_path": "fused_output_dir_uncertainty/0100.png"
         }
     ]
 }
